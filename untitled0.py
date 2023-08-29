@@ -34,8 +34,8 @@ def decrypt(cipher, key):
     return plain_text
 
 
-plaintext = "HELLO"
-keyword = "KEY"
+plaintext = input("Please enter your message: ")
+keyword = input("Now enter key: ")
 
 encrypted_text = encrypt(plaintext, keyword)
 print("Encrypted:", encrypted_text)
